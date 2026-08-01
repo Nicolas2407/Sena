@@ -12,6 +12,9 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+const routes = require("./src/routes");
+app.use("/api", routes);
+
 const startServer = async () => {
   try {
     await mongoose.connect(process.env.MONGODB_URI, {
