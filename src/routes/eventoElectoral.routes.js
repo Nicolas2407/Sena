@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const EventoElectoral = require("../models/EventoElectoral");
+const EventoElectoral = require("../models/eventoelectoral");
 
 // Obtener todos los eventos electorales
 router.get("/", async (req, res) => {

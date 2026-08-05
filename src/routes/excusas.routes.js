@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Excusas = require("../models/Excusas");
+const Excusas = require("../models/excusas");
 
 // Obtener todas las excusas
 router.get("/", async (req, res) => {

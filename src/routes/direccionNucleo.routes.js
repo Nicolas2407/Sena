@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const DireccionNucleo = require("../models/DireccionNucleo");
+const DireccionNucleo = require("../models/direccionnucleo");
 
 // Obtener todas las direcciones de núcleo
 router.get("/", async (req, res) => {

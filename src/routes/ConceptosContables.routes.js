@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const ConceptosContables = require('../models/ConceptosContables');
+const ConceptosContables = require('../models/conceptoscontables');
 
 // Obtener todos los conceptos
 router.get('/', async (req, res) => {

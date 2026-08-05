@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 
-const Elecciones = require("../models/Elecciones");
+const Elecciones = require("../models/elecciones");
 
 // Obtener todas las elecciones
 router.get("/", async (req, res) => {
